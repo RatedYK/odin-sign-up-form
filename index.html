@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas+Neue">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <title>Lorem Ipsum - Register</title>
+</head>
+<body>
+    <div class="container">
+        <div class="background-logo-container">
+            <div class="logoBox">
+                <img id="logo" src="./images/preview.png" alt="Company Logo"><h1>Lorem Ipsum</h1>
+            </div>
+        </div>
+        <div class="input-Container">
+            <div class="text-container">
+               <p><br>This is not a real online service! You know you need something</br>
+                like this in your life to help you realize your deepest dreams.
+                <br>Sign up <em>now</em>&nbsp; to get started.</br>
+                <br></br>
+                You <em>know</em>&nbsp; you want to.</p>
+            </div>
+            <div class="form-container">
+                <form action="" method="post" id="form1">
+                    <div id="warning-box"><span id="warning">Required fields are marked with *</span></div>
+                    <div class="fieldBlock">
+                        <div class="field">
+                            <label for="fName">FIRST NAME<aria-label>*</aria-label></label>
+                            <input type="text" name="fName" id="fname" placeholder="John" required>
+                        </div>
+                        <div class="field">
+                            <label for="lName">LAST NAME<aria-label>*</aria-label></label>
+                            <input type="text" name="lName" id="lName" placeholder="Smith" required>
+                        </div>
+                    </div>
+                    <div class="fieldBlock">
+                        <div class="field">
+                            <label for="email">EMAIL<aria-label>*</aria-label></label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="field">
+                            <label for="tel">PHONE NUMBER</label>
+                            <input type="tel" name="tel" id="tel">
+                        </div>
+                    </div>
+                    <div class="fieldBlock">
+                        <div class="field">
+                            <label for="password">PASSWORD<aria-label>*</aria-label></label>
+                            <input type="password" name="password" id="pw" required>
+                        </div>
+                        <div class="field">
+                            <label for="confirmPassword">CONFIRM PASSWORD<aria-label>*</aria-label></label>
+                            <input type="password" name="confirmPassword" id="confirmPassword" required>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="button-container">
+                <button type="submit" form="form1">Create Account</button>
+                <span>Already have an account? <a href="">Log in</a></span>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

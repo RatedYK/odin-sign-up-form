@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+button,
+input {
+  font-family: inherit;
+  background-color: black;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+.background-logo-container {
+    display: flex;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    background-image: url(./images/valery-rabchenyuk-4uqqrQYdxQw-unsplash.jpg);
+    background-size: 100% 100%;
+}
+
+.background-logo-container>.logoBox {
+    display: flex;
+    font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    font-size: large;
+    width: 100%;
+    background-color: hsla(0, 0%, 0%, 0.4);
+    color: white;
+    margin-bottom: 30vh;
+}
+
+.fieldBlock {
+    display: flex;
+    flex: 1;
+    gap: 5rem;
+    margin: 1rem;
+    width: 100%;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    font-weight: 900;
+    color: white;
+    width: 20vw;
+}
+
+input {
+    height: 2rem;
+    border-radius: 5px;
+    color: white;
+}
+
+#logo {
+    width: 20vh;
+}
+
+.input-Container {
+    font-family:'Open Sans', Arial, Helvetica, sans-serif;;
+    padding: 2em;
+    white-space: nowrap;
+    width: 60vw;
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+    box-shadow: -5px 0px 3px black;
+    color: white;
+}
+
+.text-container {
+    font-size: 3vh;
+}
+
+#warning-box {
+    white-space: nowrap;
+    position: relative;
+}
+
+#warning {
+    position: absolute;
+    right: 0.5rem;
+    top: -1rem;
+    color: white;
+    margin: 0 1rem;
+    font-size: xx-small;
+}
+.form-container {
+    display: flex;
+    box-shadow: 0px 0px 20px aquamarine;
+    background-color: black;
+    color: black;
+    width: 55vw;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 10rem;
+    padding: 1rem 10px;
+}
+
+p {
+    font-weight: bold;
+}
+
+button {
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    color: aquamarine;
+    font-size: larger;
+    font-weight: bold;
+    border: solid;
+}
+
+button:hover {
+    box-shadow: 0 0 20px aquamarine;
+    transform: scale(1.1);
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
+a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+a:hover {
+    text-shadow: 0 0 20px aquamarine;
+    font-size: large;
+}
