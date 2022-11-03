@@ -30,11 +30,11 @@
                     <div class="fieldBlock">
                         <div class="field">
                             <label for="fName">FIRST NAME<aria-label>*</aria-label></label>
-                            <input type="text" name="fName" id="fname" placeholder="John" required>
+                            <input type="text" name="fName" id="fName" minlength="2" maxlength="30" placeholder="John" required>
                         </div>
                         <div class="field">
                             <label for="lName">LAST NAME<aria-label>*</aria-label></label>
-                            <input type="text" name="lName" id="lName" placeholder="Smith" required>
+                            <input type="text" name="lName" id="lName" minlength="2" maxlength="30" placeholder="Smith" required>
                         </div>
                     </div>
                     <div class="fieldBlock">
@@ -44,17 +44,17 @@
                         </div>
                         <div class="field">
                             <label for="tel">PHONE NUMBER</label>
-                            <input type="tel" name="tel" id="tel">
+                            <input type="tel" pattern="\d+" name="tel" placeholder="optional" id="tel">
                         </div>
                     </div>
                     <div class="fieldBlock">
                         <div class="field">
                             <label for="password">PASSWORD<aria-label>*</aria-label></label>
-                            <input type="password" name="password" id="pw" required>
+                            <input type="password" name="password" id="pw" minlength="8" maxlength="20" placeholder="8-20 characters" required>
                         </div>
                         <div class="field">
                             <label for="confirmPassword">CONFIRM PASSWORD<aria-label>*</aria-label></label>
-                            <input type="password" name="confirmPassword" id="confirmPassword" required>
+                            <input type="password" name="confirmPassword" minlength="8" maxlength="20" placeholder="8-20 characters" id="confirmPassword" required>
                         </div>
                     </div>
                 </form>
