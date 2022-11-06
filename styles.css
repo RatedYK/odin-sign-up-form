@@ -19,15 +19,18 @@ input {
 
 .background-logo-container {
     display: flex;
+    position: relative;
+    flex-flow: column;
     width: 40%;
     height: 100%;
-    align-items: center;
+    justify-content: center;
     background-image: url(./images/valery-rabchenyuk-4uqqrQYdxQw-unsplash.jpg);
     background-size: 100% 100%;
 }
 
 .background-logo-container>.logoBox {
     display: flex;
+    position: absolute;
     font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
     align-items: center;
     justify-content: center;
@@ -37,6 +40,18 @@ input {
     background-color: hsla(0, 0%, 0%, 0.4);
     color: white;
     margin-bottom: 30vh;
+}
+
+.credits {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    color: lightgray;
+    position: absolute;
+    font-size: x-small;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    bottom: 0;
+    
 }
 
 .fieldBlock {
